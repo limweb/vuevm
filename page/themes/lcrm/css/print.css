@@ -1,0 +1,107 @@
+@page {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.A4 .page {
+    width: 210mm;
+    height: 296mm;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    page-break-after: always;
+    background: white;
+    box-shadow: 0 0.5mm 2mm rgba(0, 0, 0, 0.3);
+    margin: 5mm;
+}
+
+.subpage {
+    padding: 1cm;
+    /* border: 5px rgb(255, 255, 255) solid; */
+    height: 257mm;
+    /* outline: 2cm #ffeaea solid; */
+}
+
+@page {
+    size: A4;
+    width: 210mm;
+    margin: 0;
+}
+
+@media screen {
+    #preview {
+        /* display: none; */
+        /* position: relative;  */
+        /* top: 150px; */
+        left: 235px;
+        /* background-color: white; */
+        /* min-width: 100% !importain; */
+        /* min-height: 100% !importain;  */
+    }
+    .printarea {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+@media print {
+    #preview {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* min-width: 100% !importain; */
+        /* min-height: 100% !importain; */
+    }
+    right-side {
+        margin-left: 0px !important;
+        display: none !important;
+    }
+    .printonly {
+        display: block;
+    }
+    .noprint {
+        display: none;
+    }
+    .A4,
+    .A5.landscape {
+        width: 210mm;
+    }
+    /* body> :not(.printarea) {
+        display: none;
+    } */
+    body,
+    body * {
+        visibility: hidden;
+        /* position: absolute; */
+    }
+    .printarea,
+    .printarea * {
+        visibility: visible;
+        position: relative;
+        display: block;
+        width: fit-content;
+        min-height: 100% !important;
+    }
+    body {
+        margin: 0;
+    }
+    .printarea {
+        margin: 0;
+    }
+    .page {
+        margin: 0;
+        position: relative;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        overflow: hidden;
+        box-sizing: border-box;
+        page-break-after: always;
+    }
+}

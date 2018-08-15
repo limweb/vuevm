@@ -1,0 +1,22 @@
+{
+  "name": "lcrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-vue": "^2.0.1",
+    "collect.js": "^4.0.1",
+    "parcel-bundler": "^1.6.2",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0"
+  }
+}

@@ -1,0 +1,20 @@
+ Volume in drive C has no label.
+ Volume Serial Number is CA78-CE05
+
+ Directory of c:\works\php-repo\lcrm\lcrm\jslibs
+
+05-Jan-18  10:50 PM    <DIR>          .
+05-Jan-18  10:50 PM    <DIR>          ..
+05-Jan-18  10:45 PM            42,666 axios.js
+05-Jan-18  10:47 PM           498,636 elementui.js
+05-Jan-18  10:50 PM                 0 list
+05-Jan-18  10:48 PM             4,429 th.js
+05-Jan-18  10:47 PM           197,053 vee-validate.js
+05-Jan-18  10:43 PM               496 vendor.js
+05-Jan-18  10:49 PM            11,235 vue-ls.js
+05-Jan-18  10:46 PM             8,883 vue-pagination.js
+05-Jan-18  09:45 PM            65,289 vue-router.js
+05-Jan-18  09:45 PM           285,300 vue.js
+05-Jan-18  10:44 PM            25,628 vuex.js
+              11 File(s)      1,139,615 bytes
+               2 Dir(s)  58,979,819,520 bytes free

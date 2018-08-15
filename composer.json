@@ -1,0 +1,27 @@
+{
+    "name": "servit/phpserver",
+    "description": "PHP WEB REST SERVER",
+    "authors": [
+        {
+            "name": "Thongchai Lim",
+            "email": "thongchai@servit.co.th"
+        }
+    ],
+    "repositories": [
+        {
+            "name" : "servit/framework", 
+            "type" : "vcs",
+            "url" : "file://c:/works/php-repo/servit/framework/.git"
+        }   
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "servit/framework": "dev-master"
+    },
+     "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    },
+	"minimum-stability": "dev"
+}

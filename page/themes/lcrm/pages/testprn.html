@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TestPrn</title>
+    <style>
+        @media print {
+            .printonly {
+                display: block;
+            }
+            .noprint {
+                display: none
+            }
+            .A3.landscape {
+                width: 420mm
+            }
+            .A3,
+            .A4.landscape {
+                width: 297mm
+            }
+            .A4,
+            .A5.landscape {
+                width: 210mm
+            }
+            .A5 {
+                width: 148mm
+            }
+        }
+        
+        @page {
+            size: A4;
+            width: 210mm;
+            height: 296mm margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="printonly">
+        <h1>test</h1>
+        </h1>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+Theme Name: Admin
+Theme URL: http://www.bizidea.co.th
+Version: 1.0
+Description: Admin theme.
+
+areas[navigation] = Navigation
+areas[breadcrumb] = Breadcrumb
+areas[sidebar] = Sidebar
+areas[footer] = Footer

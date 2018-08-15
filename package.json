@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "electron-installer-windows": "^0.2.0",
+    "electron-prebuilt": "^1.4.13",
+    "global": "^4.3.2"
+  }
+}
